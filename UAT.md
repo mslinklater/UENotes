@@ -9,29 +9,49 @@ Can be called via the RunUAT.bat batch file.
 ## Global Command Line Parameters
 
 **-CompileOnly**
+
 **-Verbose**
+
 **-Submit**
+
 **-NoSubmit**
+
 **-NoP4**
+
 **-P4**
+
 **-Preprocess**
+
 **-Compile**
+
 **-NoCompile**
+
 **-NoCompileEditor**
+
 **-IncrementalBuildUBT**
+
 **-Help**
+
 **-List**
 
 Outputs a list of all the commands UAT knows about.
 
 **-2015**
+
 **-NoKill**
+
 **-Installed**
+
 **-UTF8Output**
+
 **-AllowStdOutLogVerbosity**
+
 **-NoAutoSDK**
+
 **-ignorejunk**
+
 **-UseLocalBuildStorage**
+
 **-NotInstalledEngine**
 
 ## Parameters
