@@ -66,6 +66,10 @@ Path to telemetry file - not sure what this does yet.
 
 ## Commands
 
+### BuildPhysX
+
+Builds the PhysX libraries using the CMake build system. [Details](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Source/Programs/AutomationTool/Scripts/BuildPhysX.Automation.cs)
+
 ### UpdateLocalVersion
 
-Updates your local version based on a 'p4 sync' command. This modifies the contents of the files 'Engine/Build/Build.version' and 'Engine/Source/Runtime/Launch/Resources/Version.h'.
+Updates your local version based on a 'p4 sync' command. This modifies the contents of the files 'Engine/Build/Build.version', 'Engine/Source/Runtime/Launch/Resources/Version.h' and 'Engine/Source/Programs/DotNETCommon/MetaData.cs'.
