@@ -16,3 +16,4 @@ Resaves packages regardless of changelist values
 
 Ignores engine packages.
 
+Q/ How to have it not create a P4 changelist ?
