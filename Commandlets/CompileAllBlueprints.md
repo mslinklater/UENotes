@@ -10,7 +10,11 @@ Shows less log file output - not sure how useful it is to have it on or off
 
 -DirtyOnly
 
+Only builds Blueprints which are tagged as dirty by the editor
+
 -CookedOnly
+
+Ignores non-cooked blueprints
 
 -CompileSkeletonOnly
 
