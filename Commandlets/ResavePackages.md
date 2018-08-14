@@ -4,6 +4,60 @@ Resaves project packages using latest engine serialisation. You should run this 
 
 ##Parameters
 
+-STRIPEDITORONLY
+
+Removes editor only content when pacakges are resaved
+
+-SKIPFAILS
+
+Disables the assert which fires if a package can't be loaded without error
+
+-VERIFY
+
+-OnlySaveDirtyPackages
+
+Only resaves packages which have their birty bit set
+
+-AutoCheckOutPackages or -AutoCheckOut
+
+-AutoCheckIn or -AutoSubmit
+
+-buildlighting
+
+-buildtexturestreaming
+
+-BuildHLOD
+
+-BuildOptions=xxx,yyy,zzz
+	Clusters
+	Proxies
+	ForceClusters
+	ForceProxies
+	ForceEnableHLOD
+	ForceSingleCluster
+
+-ForceHLODSetupAsset=xxx
+
+-SkipToMap=xxx
+
+System Environment Variable uebp_UATMutexNoWait
+
+-AllowCommandletRendering
+
+-Quality=xxx
+	Preview
+	Medium
+	High
+	Production
+
+-FirstPackage=xxx
+
+Allows you to set the first package so you can continue resaving from a specific point
+
+-PackageSubString=xxx
+
+
+
 -fixupredirects
 
 Just fixes up redirects.
