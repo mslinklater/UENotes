@@ -1,5 +1,76 @@
 # Class Hierarchy
 
+Types prepended with a '.' are declared inside cpp files and therefore have limited scope and are probably temporary utility classes
+
+FArchive
+	FArchiveAsync2
+	.FArchiveCountConfigMem
+	.FArchiveCountMemGUID
+	.FArchiveFileWriterDummy
+	FArchiveFileReaderGeneric
+	FArchiveFileWriterGeneric
+	FArchiveLoadCompressedProxy
+	FArchiveSaveCompressedProxy
+	FArchiveProxy
+		FArchiveFromStructuredArchive
+			FArchiveUObjectFromStructuredArchive
+		.FDiffFileArchive
+		FNameAsStringProxyArchive
+		FShaderSaveArchive
+		.FThreadCheckingArchiveProxy
+	FArchiveUObject
+		FArchiveCountMem
+		FArchiveDescribeReference
+		FArchiveFindAllRefs
+		FArchiveFindCulprit
+		.FArchiveFixDistributionRefs
+		.FArchiveListRefs
+		FArchiveObjectCrc32
+		FArchiveObjectGraph
+		FArchiveObjectPropertyMapper
+		FArchiveReferenceMarker
+		FArchiveReplaceObjectRefBase
+			FArchiveReplaceObjectRef<T>
+				FArchiveReplaceOrCleanExternalReferences<T>
+		.FArchiveSaveTagExports
+		.FArchiveSaveTagImports
+		FArchiveScriptReferenceCollector
+		FArchiveShowReferences
+		FArchiveTraceRoute
+		.FDiffFileArchive
+		FDuplicateDataReader
+		FDuplicateDataWriter
+		.FEditorContentReferenceArchive
+		.FExportReferenceSorter
+		.FFindLightmapsArchive
+		FFindReferencersArchive
+		.FFixupSmartPointersForPIEArchive
+		FLinkerLoad
+		FLinkerSave
+		FPackageReader
+		FReferenceCollectorArchive
+		FReloadObjectArc
+		.FReplaceObjectReferencesArchive
+		.FSoftPathPIEFixupSerializer
+		.FTextReferencesArchive
+	.FAsyncWriter
+	FBitReader
+	FBitWriter
+	FBufferReaderBase
+	FBufferWriter
+	.FComponentPropertySkipper
+	FHttpStreamFArchive
+	FInMemoryReplayStreamArchive
+	FLocalFileStreamArchive
+	FMallocProfilerBufferedFileWriter
+	.FManifestReader
+	.FManifestWriter
+	FMemoryArchive
+	FNameTableArchiveReader
+	FNameTableArchiveWriter
+	FOutputDeviceMemoryProxyArchive
+	FSignedArchiveReader
+
 UObjectBase
 	UObjectBaseUtility
 		UObject
@@ -8,4 +79,5 @@ UObjectBase
 					UClass
 						UBlueprintGeneratedClass
 						UDynamicClass
-						ULinkerPlaeholderClass
+						ULinkerPlaceholderClass
+
