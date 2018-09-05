@@ -1,8 +1,8 @@
-#CompileAllBlueprints Commandlet
+# CompileAllBlueprints Commandlet
 
 Recompiles all blueprints...
 
-##Parameters
+## Parameters
 
 -ShowResultsOnly
 
