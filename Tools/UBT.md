@@ -70,6 +70,8 @@ Path to .uproject file
 
 **-nomutex**
 
+Allows more than one instance of UBT to run at once. You probably don't want to do this.
+
 **-progress**
 
 **-projectfileformat=**
@@ -91,6 +93,8 @@ Path to .uproject file
 **-vsdebugandroid**
 
 **-waitmutex**
+
+If you run more than one instance of UBT at once this flag will try to make the new instance wait until the previous one(s) have completed before running.
 
 **-xcodeprojectfiles**
 
