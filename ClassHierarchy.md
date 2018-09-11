@@ -1,7 +1,7 @@
 # Class Hierarchy
 
 Types prepended with a '.' are declared inside cpp files and therefore have limited scope and are probably temporary utility classes
-
+```
 FArchive
 	FArchiveAsync2
 	.FArchiveCountConfigMem
@@ -19,7 +19,7 @@ FArchive
 		FShaderSaveArchive
 		.FThreadCheckingArchiveProxy
 	FArchiveUObject
-		FArchiveCountMem
+		FArchiveCountMem										: Used for getting asset memory size
 		FArchiveDescribeReference
 		FArchiveFindAllRefs
 		FArchiveFindCulprit
@@ -80,4 +80,4 @@ UObjectBase
 						UBlueprintGeneratedClass
 						UDynamicClass
 						ULinkerPlaceholderClass
-
+```

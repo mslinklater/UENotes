@@ -2,27 +2,27 @@
 
 ## Source Locations
 
-Source/Runtime/Core/Public/Misc/AutomationTest.h
-Plugins/Tests/...
-Source/Runtime/AutomationMessages/
-Source/Runtime/AutomationWorker/
-Source/Developer/AutomationController
-Source/Developer/AutomationDriver
-Source/Developer/AutomationWindow
+* Source/Runtime/Core/Public/Misc/AutomationTest.h
+* Plugins/Tests/...
+* Source/Runtime/AutomationMessages/
+* Source/Runtime/AutomationWorker/
+* Source/Developer/AutomationController
+* Source/Developer/AutomationDriver
+* Source/Developer/AutomationWindow
 
 ## Code Modules
 
-EditorTests (plugins)
-FbxAutomationTestBuilder (plugins)
-FunctionalTestingEditor (plugins)
-RuntimeTests (plugins)
-ScreenshotTools (plugins)
-AutomationController (developer)
-AutomationDriver (developer)
-AutomationWindow (developer)
-UnrealEd (editor)
-AutomationMessages (runtime)
-AutomationWorker (runtime)
+* EditorTests (plugins)
+* FbxAutomationTestBuilder (plugins)
+* FunctionalTestingEditor (plugins)
+* RuntimeTests (plugins)
+* ScreenshotTools (plugins)
+* AutomationController (developer)
+* AutomationDriver (developer)
+* AutomationWindow (developer)
+* UnrealEd (editor)
+* AutomationMessages (runtime)
+* AutomationWorker (runtime)
 
 
 ### Unit Tests
@@ -31,26 +31,24 @@ Lots of examples here
 
 Source/Runtime/Core/Private/Tests
 
-
 ### 
 
 ## Types
 
 ### Enums
-
+```
 EAutomationTestFlags
 EAutomationExpectedErrorFlags
-
+```
 ### Structs
-
+```
 FAutomationExpectedError
 FAutomationScreenShotData
-
+```
 ### Macros
 
-PRIVATE defines are hidden behind the non-PRIVATE ones so that the WITH_AUTOMATION_WORKER
-define can replace them will empty stubs
-
+PRIVATE defines are hidden behind the non-PRIVATE ones so that the WITH_AUTOMATION_WORKER define can replace them will empty stubs
+```
 ADD_LATENT_AUTOMATION_COMMAND
 BEGIN_DEFINE_SPEC
 BEGIN_DEFINE_SPEC_PRIVATE
@@ -74,14 +72,14 @@ IMPLEMENT_NETWORKED_AUTOMATION_TEST_PRIVATE
 IMPLEMENT_SIMPLE_AUTOMATION_TEST
 IMPLEMENT_SIMPLE_AUTOMATION_TEST_PRIVATE
 START_NETWORK_AUTOMATION_COMMAND
-
+```
 ### Interfaces
-
+```
 IAutomationLatentCommand
 IAutomationNetworkCommand
-
+```
 ### Classes
-
+```
 FAutomationTestBase
 	FAutomationSpecBase
 	FBDDAutomationTestBase
@@ -92,3 +90,4 @@ FDelayedFunctionLatentCommand
 FFunctionLatentCommand
 FThreadedAutomationLatentCommand : IAutomationLatentCommand
 FUntilCommand
+```
