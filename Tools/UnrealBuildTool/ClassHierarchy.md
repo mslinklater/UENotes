@@ -9,11 +9,172 @@ IntelliSenseGatherer
 ## Classes
 
 ```
+Action
+ActionExecutor
+	Distcc
+	LocalExecutor
+	RemoteExecutor
+	SNDBS
+	XGE
+ActionGraph
+ActionHistory
+ActionThread
 BuildConfiguration
+BuildException
+BuildHostPlatform
+	LinuxBuildHostPlatform
+	MacBuildHostPlatform
+	WindowsBuildHostPlatform
+BuildManifest
+BuildProduct
+BuildVersion
+ConfigCacheIni_UPL
+CommandLine
+CommandLineAttribute
+CompilationResultExtensions
+ConfigCache
+ConfigFile
+ConfigFileAttribute
+ConfigFileSelection
+ConfigHierarchy
+ConfigHierarchySection
+ConfigLine
+CPPCompileEnvironment
+CPPHeaders
+CPPIncludePaths
+CPPOutput
+CustomBuildSteps
+DependencyCache
+DependencyInclude
+DirectoryCache
+DirectoryLookupCache
+DynamicCompilation
+EmptySourceFileWorkingSet
+EncryptionAndSigning
+ExceptionUtils
+ExternalExecution
+FileFilter
+FileFilterNode
+FileItem
+FlatCPPIncludeDependencyCache
+FlatCPPIncludeDependencyInfo
+FlatModuleCsDataType
+GitSourceFileWorkingSet
+GraphAttribute
+GraphEdge
+GraphNode
+GraphVisualization
+GroupIconResource
+IconResource
+IncludedFilesSet
+InstalledPlatformInfo
+JunkDeleter
+LinkEnvironment
+LocalizationTargetDescriptor
+Log
 MasterProjectFolder
-    VisualStudioSolutionFolder
+	VisualStudioSolutionFolder
+ModuleDescriptor
+ModuleManifest
+ModuleResourceLibrary
+ModuleResourceUpdate
+ModuleRules
+ObsoleteOverrideAttribute
+OnlyModule
+PerforceSourceFileWorkingSet
+PlatformExports
+PluginDescriptor
+PluginInfo
+PluginReferenceDescriptor
+Plugins
+PrecompiledHeaderInstance
+PrecompiledHeaderTemplate
+ProgressWriter
 ProjectFile (IntelliSenseGatherer)
-    MSBuildProjectFile
+	MSBuildProjectFile
+		VCProjectFile
+		VCSharpProjectFile
+ProjectFileComparer
 ProjectFileGenerator
-    VCProjectFileGenerator
+	VCProjectFileGenerator
+ProjectFileGeneratorSettings
+ProjectFile
+ProjectDescriptor
+ProjectTarget
+PS4TargetRules
+ReadOnlyBuildVersion
+ReadOnlyPS4TargetRules
+ReadOnlyTargetRules
+ReadOnlyWindowsTargetRules
+ReadOnlyXboxOneTargetRules
+ReceiptProperty
+ResponseFile
+RestrictedFolders
+RPCUtilHelper
+RulesAssembly
+RulesCompiler
+RulesDocumentation
+RuntimeDependency
+RuntimeDependencyList
+ScopedLogIndent
+ScopedTimer
+SourceFileSearch
+SourceFileWorkingSet
+StreamUtils
+TargetDescriptor
+TargetInfo
+TargetReceipt
+TargetRules
+Telemetry
+UBTMakefile
+UEBuildBinary
+UEBuildBinaryConfiguration
+UEBuildBundleResource
+UEBuildDeploy
+	BaseWindowsDeploy
+	UEDeployPS4
+UEBuildDeployTarget
+UEBuildFramework
+UEBuildModule
+	UEBuildModuleCPP
+	UEBuildModuleExternal
+UEBuildPlatform
+	PS4Platform
+	WindowsPlatform
+UEBuildPlatformFactory
+	PS4PlatformFactory
+	WindowsPlatformFactory
+UEBuildPlatformSDK
+	PS4PlatformSDK
+	WindowsPlatformSDK
+UEBuildPlugin
+UEBuildTarget
+UEConsoleTraceListener
+UEPlatformProjectGenerator
+	PS4ProjectGenerator
+	WindowsProjectGenerator
+UEToolChain
+	PS4ToolChain
+	PVSToolChain
+	RemoteToolChain
+	VCToolChain
+UHTModuleInfo
+UHTModuleTypeExtensions
+Unity
+UnrealPluginLanguage
+UProjectInfo
+Utils
+VCBinarySetting
+VCOleContainer
+	VSSolutionOptions
+VCSolutionExplorerState
+VCEnvironment
+WindowsExports
+WindowsTargetRules
+XboxOneTargetRules
+XmlConfig
+XmlConfigData
+XmlConfigFile
+XmlConfigFileAttribute
+XmlConfigFileElement
 ```
