@@ -2,6 +2,7 @@
 
 Classes/Structs/Enums
 
+```
 EAlignHorizontal
 EAlignVertical
 EGameplayAbilityActivationMode
@@ -60,3 +61,4 @@ AAbilitySystemTestPawn -> ADefaultPawn, IGameplayCueInterface, IAbilitySystemInt
 IAbilitySystemInterface
 IAbilitySystemReplicationProxyInterface
 IGameplayCueInterface
+```

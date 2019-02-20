@@ -36,37 +36,59 @@ Path to .uproject file
 
 **-cmakefile**
 
+Generate a CMake file for the project
+
+**-clion**
+
+Generate CLion file for the project
+
 **-codelitefiles**
+
+Generate CodeLite files for the project
 
 **-deploy**
 
-**-define**
-
 **-eddieprojectfiles**
+
+Generate Eddie files for the project
+
+**-frommsbuild**
 
 **-gather**
 
-**-ignorejunk**
-
-**-nogather**
-
 **-gatheronly**
+
+**-ignorejunk**
 
 **-installed | -installedengine**
 
-**-notinstalledengine**
+Sets bIsEngineInstalled to true
 
 **-invalidatemakefilesonly**
 
 **-kdevelopfile**
 
+Generate a kdevelop file for the project
+
 **-log=**
 
 **-makefile**
 
-**-modulerulesdoc=**
+Generate a makefile for the project
 
-**-modulewithsuffix**
+**-modulerulesdoc=<file>**
+
+Produce a module rules HTML documentation file
+
+**-modulewithsuffix=<module>**
+
+Only build the specified module ?
+
+**-nogather**
+
+**-notinstalledengine**
+
+Sets bIsEngineInstalled to false
 
 **-nomutex**
 
@@ -80,23 +102,43 @@ Allows more than one instance of UBT to run at once. You probably don't want to 
 
 **-qmakefile**
 
-**-singlefile**
+Generate a QMake file for the project
+
+**-singlefile=<file>**
+
+Compile just a single file
 
 **-targetrulesdoc=**
+
+**-timestamps**
 
 **-validateplatform**
 
 **-verbose**
 
+Set verbose log output
+
+**-veryverbose**
+
+Set very verbose log output
+
 **-vscode**
 
+Generate Visual Code file for the project
+
 **-vsdebugandroid**
+
+**-vsmac**
+
+Generate Visual Code Mac file for the project
 
 **-waitmutex**
 
 If you run more than one instance of UBT at once this flag will try to make the new instance wait until the previous one(s) have completed before running.
 
 **-xcodeprojectfiles**
+
+Generate XCode project file
 
 **-xgeexport**
 
