@@ -32,7 +32,9 @@ Path to .uproject file
 
 **-autosdkonly**
 
-**-buildconfigurationdoc=**
+**-buildconfigurationdoc=** *filename*
+
+Produce a build configuration HTML documentation file
 
 **-cmakefile**
 
@@ -58,9 +60,11 @@ Generate Eddie files for the project
 
 **-gatheronly**
 
+**-graph**
+
 **-ignorejunk**
 
-**-installed | -installedengine**
+**-installed** | **-installedengine**
 
 Sets bIsEngineInstalled to true
 
@@ -76,11 +80,11 @@ Generate a kdevelop file for the project
 
 Generate a makefile for the project
 
-**-modulerulesdoc=<file>**
+**-modulerulesdoc=** *filename*
 
 Produce a module rules HTML documentation file
 
-**-modulewithsuffix=<module>**
+**-modulewithsuffix=**
 
 Only build the specified module ?
 
@@ -104,11 +108,13 @@ Allows more than one instance of UBT to run at once. You probably don't want to 
 
 Generate a QMake file for the project
 
-**-singlefile=<file>**
+**-singlefile=filename**
 
 Compile just a single file
 
-**-targetrulesdoc=**
+**-targetrulesdoc=** *filename*
+
+Produce a target rules HTML documentation file
 
 **-timestamps**
 
