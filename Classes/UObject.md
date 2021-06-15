@@ -1,6 +1,6 @@
 # UObject
 
-parent: UObjectBase
+parent: [UObjectBase](UOBjectBase.md)
 
 ## Description
 
