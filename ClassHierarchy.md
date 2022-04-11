@@ -80,4 +80,13 @@ UObjectBase
 						UBlueprintGeneratedClass
 						UDynamicClass
 						ULinkerPlaceholderClass
+			UStreamableRenderAsset
+				UTexture
+					UTextureRenderTarget
+						UTextureRenderTarget2D
+							UCanvasRenderTarget2D
+						UTextureRenderTarget2DArray
+						UTextureRenderTargetCube
+						UTextureRenderTargetVolume
 ```
+			
