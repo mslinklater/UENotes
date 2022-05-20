@@ -1,5 +1,10 @@
-#UE4 Glossary
+# UE4 Glossary
 
-##P
+
+## O
+
+Outer - the parent object
+
+## P
 
 Package - 
