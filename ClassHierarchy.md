@@ -71,8 +71,8 @@ FArchive
 	FOutputDeviceMemoryProxyArchive
 	FSignedArchiveReader
 
-UObjectBase
-	UObjectBaseUtility
+UObjectBase	- low level implementation of UObject - should not be used directly in game code.
+	UObjectBaseUtility	- provides utility functions for UObject - should not be used directly
 		UObject
 			UField
 				UStruct
@@ -80,4 +80,4 @@ UObjectBase
 						UBlueprintGeneratedClass
 						UDynamicClass
 						ULinkerPlaceholderClass
-```
+

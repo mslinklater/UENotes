@@ -156,3 +156,10 @@ Generate XCode project file
 
 **-2017**
 
+## Controlling the Build Environment
+
+**To add a C preprocessor define**
+
+Add to target.cs file:
+
+GlobalDefinition.Add("BLAH=1");
