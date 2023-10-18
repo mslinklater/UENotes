@@ -80,4 +80,11 @@ UObjectBase	- low level implementation of UObject - should not be used directly 
 						UBlueprintGeneratedClass
 						UDynamicClass
 						ULinkerPlaceholderClass
-
+			UStreamableRenderAsset
+				UTexture
+					UTextureRenderTarget
+						UTextureRenderTarget2D
+							UCanvasRenderTarget2D
+						UTextureRenderTarget2DArray
+						UTextureRenderTargetCube
+						UTextureRenderTargetVolume
